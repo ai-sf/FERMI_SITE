@@ -40,7 +40,8 @@ $period["FILTER_SPRING"] = 5;
 
 
 $retribution["FILTER_NONE"] = 1;
-$retribution["FILTER_NONE"] = 1;
-$retribution["FILTER_NONE"] = 1;
+$retribution["FILTER_LOW"] = 2;
+$retribution["FILTER_MEDIUM"] = 3;
+$retribution["FILTER_HIGH"] = 4;
 ?>
 
