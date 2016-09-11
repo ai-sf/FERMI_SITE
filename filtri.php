@@ -2,6 +2,7 @@
 // filtri.php
 $field = array();
 $period = array();
+$retribution = array();
 
 $field["FILTER_PARTICLE_FIELDS"] = 1;
 $field["FILTER_SPACESCIENCE"] =2;
@@ -34,5 +35,12 @@ $period["FILTER_AUTUMN"] = 3;
 $period["FILTER_WINTER"] = 4;
 $period["FILTER_SPRING"] = 5;
 
+
+
+
+
+$retribution["FILTER_NONE"] = 1;
+$retribution["FILTER_NONE"] = 1;
+$retribution["FILTER_NONE"] = 1;
 ?>
 
