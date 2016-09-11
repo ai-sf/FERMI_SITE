@@ -22,7 +22,7 @@ $field["FILTER_SOLIDSTATE"] =16;
 $field["FILTER_NUMERICAL"] =17;
 
 $period["FILTER_SUMMER"] = 1;
-$period["FILTER_YEAR"] = 2
+$period["FILTER_YEAR"] = 2;
 
 ?>
 
