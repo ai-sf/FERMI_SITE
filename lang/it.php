@@ -9,6 +9,8 @@ $lang['MENU_SEARCH'] = 'Cerca';
 $lang['MENU_MAP'] = 'Mappa';
 $lang['MENU_ABOUT'] = 'About';
 
+$lang['MORE'] = 'Approfondisci';
+
 $lang['WELCOME'] = 'Benvenuti nella home del database fermi';
 
 $lang['ALL'] = 'Tutti';
@@ -16,7 +18,7 @@ $lang['ALL'] = 'Tutti';
 $lang['FIELD'] = "Campo";
 $lang['PERIOD'] = "Periodo";
 
-//filtri 
+//filtri
 $lang["FILTER_PARTICLE"] = "Particelle";
 $lang["FILTER_SPACESCIENCE"] = "Space Science";
 $lang["FILTER_VARIE"] ="Varie";
