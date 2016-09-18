@@ -2,24 +2,8 @@
 <html>
 <head>
 <title> <?php echo $lang['PAGE_TITLE'];?></title>
-<style>
-table, th, td {
-    border: 1px solid black;
-}
+<link href="css/style.css" rel="stylesheet" type="text/css">
 
-#wrap {
-  width:1000px;
-  margin:10px auto;
-}
-#data{
-  float:left;
-  width:750px;
-}
-#filter{
-  float:right;
-  width:250px;
-}
-</style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="js/db.js"></script>
 </head>
