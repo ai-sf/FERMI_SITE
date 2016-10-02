@@ -3,9 +3,7 @@
 <head>
 <title> <?php echo $lang['PAGE_TITLE'];?></title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="js/db.js"></script>
 </head>
 <body>
 <?php require("menu.php");?>
@@ -20,7 +18,7 @@
 	     <label  for="field"><?php echo $lang['FIELD'].":";?></label></br>
             <?php
               foreach ($field as $key => $value) {
-                  echo("<input type=\"checkbox\" name=\"field\" value=\"".$value."\">".$lang[$key]."</br>" );
+                  echo("<input type=\"checkbox\" name=\"field[]\" value=\"".$value."\">".$lang[$key]."</br>" );
                   }
             ?>
       </div>
@@ -29,7 +27,7 @@
 	    <!--<input type="checkbox" name="period" value="0"><?php echo $lang['ALL'];?></br>-->
 		        <?php
 		          foreach ($period as $key => $value) {
-			            echo("<input type=\"checkbox\" name=\"period\" value=\"".$value."\">".$lang[$key]."</br>" );
+			            echo("<input type=\"checkbox\" name=\"period[]\" value=\"".$value."\">".$lang[$key]."</br>" );
 		              }
 		        ?>
       </fieldset>
@@ -66,6 +64,6 @@
   </table>
   </div>
 </div>
-
+<script src="js/db.js"></script>
 </body>
 </html>
