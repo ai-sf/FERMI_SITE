@@ -3,6 +3,10 @@
 $field = array();
 $period = array();
 $retribution = array();
+$studies = array();
+$region = array();
+$quality = array();
+$deadline = array();
 
 $field["FILTER_PARTICLE_FIELDS"] = 1;
 $field["FILTER_SPACESCIENCE"] =2;
@@ -43,5 +47,34 @@ $retribution["FILTER_NONE"] = 1;
 $retribution["FILTER_LOW"] = 2;
 $retribution["FILTER_MEDIUM"] = 3;
 $retribution["FILTER_HIGH"] = 4;
+
+
+$studies["FILTER_UNDERGRADUATE"] = 1;
+$studies["FILTER_MASTER"] = 2;
+$studies["FILTER_PHD"] = 3;
+
+$region["FILTER_EU"] = 1;
+$region["FILTER_USA"] = 2;
+$region["FILTER_ITALIA"] = 3;
+$region["FILTER_ASIA"] = 4;
+$region["FILTER_OCEANIA"] = 5;
+
+$quality["FILTER_MEDIUM"] = 1;
+$quality["FILTER_HIGH"] = 2;
+$quality["FILTER_EXCELLENT"] = 3;
+
+$deadline["FILTER_JANUARY"] = 1;
+$deadline["FILTER_FEBRUARY"] = 2;
+$deadline["FILTER_MARCH"] = 3;
+$deadline["FILTER_APRIL"] = 4;
+$deadline["FILTER_MAY"] = 5;
+$deadline["FILTER_JUNE"] = 6;
+$deadline["FILTER_JULY"] = 7;
+$deadline["FILTER_AUGUST"] = 8;
+$deadline["FILTER_SEPTEMBER"] = 9;
+$deadline["FILTER_OCTOBER"] = 10;
+$deadline["FILTER_NOVEMBER"] = 11;
+$deadline["FILTER_DECEMBER"] = 12;
+
 ?>
 
