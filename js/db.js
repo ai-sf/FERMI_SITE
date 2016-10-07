@@ -1,4 +1,5 @@
-$('input:checkbox').change(function() {
+function docReady(){
+  $('input:checkbox').change(function() {
    var selection = $('form').serialize();
    if (selection == "")
    {
@@ -8,4 +9,7 @@ $('input:checkbox').change(function() {
    $.get("database/getData.php", selection ,function(data, status){
        console.log("Data: " + data + "\nStatus: " + status);
    });
-});
+  });
+}
+
+$(document).ready(docReady);
