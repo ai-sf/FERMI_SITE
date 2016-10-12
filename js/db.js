@@ -17,9 +17,8 @@ function docReady(){
    if (selection == ""){
      return;
    }
-   console.log(selection);
    $.get("database/getData.php", selection ,function(data, status){
-       console.log("Data: " + data + "\nStatus: " + status);
+       console.log(data);
    });
   });
 }
