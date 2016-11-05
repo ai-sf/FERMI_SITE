@@ -64,18 +64,5 @@ $quality["FILTER_MEDIUM"] = 2;
 $quality["FILTER_HIGH"] = 3;
 $quality["FILTER_EXCELLENT"] = 4;
 
-$deadline["FILTER_JANUARY"] = 1;
-$deadline["FILTER_FEBRUARY"] = 2;
-$deadline["FILTER_MARCH"] = 3;
-$deadline["FILTER_APRIL"] = 4;
-$deadline["FILTER_MAY"] = 5;
-$deadline["FILTER_JUNE"] = 6;
-$deadline["FILTER_JULY"] = 7;
-$deadline["FILTER_AUGUST"] = 8;
-$deadline["FILTER_SEPTEMBER"] = 9;
-$deadline["FILTER_OCTOBER"] = 10;
-$deadline["FILTER_NOVEMBER"] = 11;
-$deadline["FILTER_DECEMBER"] = 12;
-
 ?>
 
