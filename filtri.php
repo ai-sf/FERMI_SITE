@@ -59,9 +59,10 @@ $region["FILTER_ITALIA"] = 3;
 $region["FILTER_ASIA"] = 4;
 $region["FILTER_OCEANIA"] = 5;
 
-$quality["FILTER_MEDIUM"] = 1;
-$quality["FILTER_HIGH"] = 2;
-$quality["FILTER_EXCELLENT"] = 3;
+$quality["FILTER_LOW"] = 1;
+$quality["FILTER_MEDIUM"] = 2;
+$quality["FILTER_HIGH"] = 3;
+$quality["FILTER_EXCELLENT"] = 4;
 
 $deadline["FILTER_JANUARY"] = 1;
 $deadline["FILTER_FEBRUARY"] = 2;
