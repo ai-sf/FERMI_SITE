@@ -1,4 +1,4 @@
-
+<?php
 // filtri.php
 $field = array();
 $period = array();
@@ -66,3 +66,4 @@ $quality["FILTER_LOW"] = 1;
 $quality["FILTER_MEDIUM"] = 2;
 $quality["FILTER_HIGH"] = 3;
 $quality["FILTER_EXCELLENT"] = 4;
+?>
