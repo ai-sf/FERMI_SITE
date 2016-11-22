@@ -2,16 +2,16 @@
 
 $lang = array();
 
-$lang['PAGE_TITLE'] = 'Database fermi';
+$lang['PAGE_TITLE'] = 'FERMI - Formazione E Ricerca Menti Italiane';
 
 $lang['MENU_HOME'] = 'Home';
-$lang['MENU_SEARCH'] = 'Cerca';
-$lang['MENU_MAP'] = 'Mappa';
+$lang['MENU_SEARCH'] = 'Database';
+$lang['MENU_PROMOTION'] = 'Promozione';
 $lang['MENU_ABOUT'] = 'About';
 
 $lang['MORE'] = 'Approfondisci';
 
-$lang['WELCOME'] = 'Benvenuti nella home del database fermi';
+$lang['WELCOME'] = 'The FERMI project of the Italian Association of Physics Students aims to build a database of internships and opportunities for physics students as these can make a difference in a world with such a high competition for jobs or research positions. We think that stages in research institutes and universities are excellent to define our academic interests and get to know diverse and stimulating realities.';
 
 $lang['ALL'] = 'Tutti';
 
