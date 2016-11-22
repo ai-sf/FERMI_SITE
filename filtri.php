@@ -31,38 +31,39 @@ $field["FILTER_GRAVITATIONAL"] =20;
 $field["FILTER_BEAMS"] =21;
 $field["FILTER_POLYMER"] =22;
 
-
-
 $period["FILTER_YEAR"] = 1;
 $period["FILTER_SUMMER"] = 2;
 $period["FILTER_AUTUMN"] = 3;
 $period["FILTER_WINTER"] = 4;
 $period["FILTER_SPRING"] = 5;
 
-
-
-
-
 $retribution["FILTER_NONE"] = 1;
 $retribution["FILTER_LOW"] = 2;
 $retribution["FILTER_MEDIUM"] = 3;
 $retribution["FILTER_HIGH"] = 4;
 
-
 $studies["FILTER_UNDERGRADUATE"] = 1;
 $studies["FILTER_MASTER"] = 2;
 $studies["FILTER_PHD"] = 3;
 
-$region["FILTER_EU"] = 1;
+$region["FILTER_ITALY"] = 1;
 $region["FILTER_USA"] = 2;
-$region["FILTER_ITALIA"] = 3;
-$region["FILTER_ASIA"] = 4;
-$region["FILTER_OCEANIA"] = 5;
+$region["FILTER_SWITZERLAND"] = 3;
+$region["FILTER_GREAT BRITAIN"] = 4;
+$region["FILTER_INTERNATIONAL"] = 5;
+$region["FILTER_AUSTRALIA"] = 6;
+$region["FILTER_NETHERLANDS"] = 7;
+$region["FILTER_FRANCE"] = 8;
+$region["FILTER_IRELAND"] = 9;
+$region["FILTER_GERMANY"] = 10;
+$region["FILTER_SPAIN"] = 11;
+$region["FILTER_TAIWAN"] = 12;
+$region["FILTER_POLAND"] = 13;
+$region["FILTER_DENMARK"] = 14;
+
 
 $quality["FILTER_LOW"] = 1;
 $quality["FILTER_MEDIUM"] = 2;
 $quality["FILTER_HIGH"] = 3;
 $quality["FILTER_EXCELLENT"] = 4;
-
 ?>
-
