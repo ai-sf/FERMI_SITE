@@ -9,7 +9,7 @@ $quality = array();
 
 $field["FILTER_PARTICLE_FIELDS"] = 1;
 $field["FILTER_SPACESCIENCE"] =2;
-$field["FILTER_VARIE"] =3;
+$field["FILTER_POLYMER"] =3;
 $field["FILTER_PLASMA"] =4;
 $field["FILTER_COMPLEX_SYSTEMS"] =5;
 $field["FILTER_ATOMIC_MOLECULAR_OPTICAL"] =6;
@@ -28,7 +28,7 @@ $field["FILTER_CHEMICAL"] =18;
 $field["FILTER_FLUID_DYNAMICS"] =19;
 $field["FILTER_GRAVITATIONAL"] =20;
 $field["FILTER_BEAMS"] =21;
-$field["FILTER_POLYMER"] =22;
+$field["FILTER_VARIE"] =22;
 
 
 
