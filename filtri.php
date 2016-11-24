@@ -6,7 +6,6 @@ $retribution = array();
 $studies = array();
 $region = array();
 $quality = array();
-$deadline = array();
 
 $field["FILTER_PARTICLE_FIELDS"] = 1;
 $field["FILTER_SPACESCIENCE"] =2;
