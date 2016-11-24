@@ -51,6 +51,9 @@ $retribution["FILTER_HIGH"] = 4;
 $studies["FILTER_UNDERGRADUATE"] = 1;
 $studies["FILTER_MASTER"] = 2;
 $studies["FILTER_PHD"] = 3;
+$studies["FILTER_UNDERGRADMASTER"] = 4;
+$studies["FILTER_MASTERPHD"] = 5;
+$studies["FILTER_ALL"] = 6;
 
 $region["FILTER_ITALY"] = 1;
 $region["FILTER_USA"] = 2;
