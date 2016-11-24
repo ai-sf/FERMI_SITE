@@ -23,9 +23,7 @@ CREATE TABLE `fermi` (
   `name` text NOT NULL,
   `field` int(11) NOT NULL,
   `period` int(11) NOT NULL,
-  `continent` int(11) NOT NULL,
-  `country` int(11) NOT NULL,
-  `city` int(11) NOT NULL,
+  `region` int(11) NOT NULL,
   `studies` int(11) NOT NULL,
   `retribution` int(11) NOT NULL,
   `link` text NOT NULL,
@@ -42,6 +40,19 @@ CREATE TABLE `fermi` (
 --
 -- Indici per le tabelle `fermi`
 --
+INSERT INTO fermi (name, field, period, region, studies, retribution, quality)
+VALUES (,);
+INSERT INTO fermi (name, field, period, region, studies, retribution, quality)
+VALUES (,);
+INSERT INTO fermi (name, field, period, region, studies, retribution, quality)
+VALUES (,);
+INSERT INTO fermi (name, field, period, region, studies, retribution, quality)
+VALUES (,);
+INSERT INTO fermi (name, field, period, region, studies, retribution, quality)
+VALUES (,);
+
+
+
 ALTER TABLE `fermi`
   ADD PRIMARY KEY (`id`);
 
