@@ -55,11 +55,11 @@ $studies["FILTER_UNDERGRADMASTER"] = 4;
 $studies["FILTER_MASTERPHD"] = 5;
 $studies["FILTER_ALL"] = 6;
 
-$region["FILTER_ITALY"] = 1;
+$region["FILTER_INTERNATIONAL"] = 1;
 $region["FILTER_USA"] = 2;
 $region["FILTER_SWITZERLAND"] = 3;
 $region["FILTER_GREAT BRITAIN"] = 4;
-$region["FILTER_INTERNATIONAL"] = 5;
+$region["FILTER_ITALY"] = 5;
 $region["FILTER_AUSTRALIA"] = 6;
 $region["FILTER_NETHERLANDS"] = 7;
 $region["FILTER_FRANCE"] = 8;
