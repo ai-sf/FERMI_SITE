@@ -17,6 +17,10 @@ $lang['ALL'] = 'Tutti';
 
 $lang['FIELD'] = "Campo";
 $lang['PERIOD'] = "Periodo";
+$lang['RETRIBUTION'] = "Retribuzione";
+$lang['STUDIES'] = "Studi";
+$lang['REGION'] = "Luogo";
+$lang['QUALITY'] = "Qualità";
 
 //filtri
 $lang["FILTER_PARTICLE_FIELDS"] = "Particelle";

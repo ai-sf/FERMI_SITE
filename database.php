@@ -90,22 +90,86 @@
 
 
 
-
-
-
         </div>
 
         <div class="col s3 ">
-  <form action="#">
-        <h5><?php echo $lang['FIELD'].":";?></h5>
+          <form action="#">
+          <ul class="collapsible" data-collapsible="expandable">
+    <li>
+      <div class="collapsible-header"><?php echo $lang['FIELD'];?></div>
+      <div class="collapsible-body"> <p> <input type="checkbox" name="field[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+             <?php
+               foreach ($field as $key => $value) {
+                   echo("<input type=\"checkbox\" name=\"field[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+                   }
+             ?></p></div>
+    </li>
+    </ul>
 
-    <p> <input type="checkbox" name="field[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></p>
-           <?php
-             foreach ($field as $key => $value) {
-                 echo("<p><input type=\"checkbox\" name=\"field[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></p>" );
-                 }
-           ?>
-      </form>
+    <ul class="collapsible" data-collapsible="expandable">
+<li>
+<div class="collapsible-header"><?php echo $lang['PERIOD'];?></div>
+<div class="collapsible-body"> <p> <input type="checkbox" name="period[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+       <?php
+         foreach ($period as $key => $value) {
+             echo("<input type=\"checkbox\" name=\"period[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+             }
+       ?></p></div>
+</li>
+</ul>
+
+
+<ul class="collapsible" data-collapsible="expandable">
+<li>
+<div class="collapsible-header"><?php echo $lang['RETRIBUTION'];?></div>
+<div class="collapsible-body"> <p> <input type="checkbox" name="retribution[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+   <?php
+     foreach ($retribution as $key => $value) {
+         echo("<input type=\"checkbox\" name=\"retribution[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+         }
+   ?></p></div>
+</li>
+</ul>
+
+
+<ul class="collapsible" data-collapsible="expandable">
+<li>
+<div class="collapsible-header"><?php echo $lang['STUDIES'];?></div>
+<div class="collapsible-body"> <p> <input type="checkbox" name="studies[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+   <?php
+     foreach ($studies as $key => $value) {
+         echo("<input type=\"checkbox\" name=\"studies[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+         }
+   ?></p></div>
+</li>
+</ul>
+
+<ul class="collapsible" data-collapsible="expandable">
+<li>
+<div class="collapsible-header"><?php echo $lang['REGION'];?></div>
+<div class="collapsible-body"> <p> <input type="checkbox" name="region[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+   <?php
+     foreach ($region as $key => $value) {
+         echo("<input type=\"checkbox\" name=\"region[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+         }
+   ?></p></div>
+</li>
+</ul>
+
+<ul class="collapsible" data-collapsible="expandable">
+<li>
+<div class="collapsible-header"><?php echo $lang['QUALITY'];?></div>
+<div class="collapsible-body"> <p> <input type="checkbox" name="quality[]" value="0" id="0"/> <label for="0"><?php echo $lang['ALL'];?></label></br>
+   <?php
+     foreach ($quality as $key => $value) {
+         echo("<input type=\"checkbox\" name=\"quality[]\" value=\"".$value."\" id=\"".$value."\"/><label for=\"".$value."\">".$lang[$key]."</label></br>" );
+         }
+   ?></p></div>
+</li>
+</ul>
+
+
+  </form>
 
         </div>
 
@@ -118,6 +182,10 @@
 
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="/js/bin/materialize.min.js"></script>
-
+<script>
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+  </script>
 
 </html>
