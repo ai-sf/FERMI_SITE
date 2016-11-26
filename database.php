@@ -43,51 +43,7 @@
         <div class="col s8 offset-s1">
          <h4> Risultati ricerca</h4>
          <div id="results">
-         <div class="row">
-     <div class="col s10 offset-s1">
-       <div class="card blue-grey darken-1">
-         <div class="card-content white-text">
-           <span class="card-title">CERN Summer Programme</span>
-           <p>Eccellente opportunità per partecipare ai lavori del CERN, collaborando attivamente all’interno di uno dei gruppi di ricerca.  Il programma offre ottime opportunità di socializzazione in un contesto internazionale: saranno infatti presenti molti studenti da tutto il mondo e si potrà  seguire una serie di lezioni preparate appositamente per i partecipanti.</p>
-         </div>
-         <div class="card-action">
-           <table> <tbody>
-          <tr>
-            <td><a href="#">Link</a> </td>
-            <td>Particelle</td>
-            <td>Estate</td>
-            <td>Retribuito</td>
-              <td>Triennale</td>
-          </tr>
-        </tbody></table>
 
-         </div>
-       </div>
-     </div>
-   </div>
-
-   <div class="row">
-   <div class="col s10 offset-s1">
-   <div class="card blue-grey darken-1">
-   <div class="card-content white-text">
-     <span class="card-title">ESA</span>
-     <p>Per chi tra di noi è già in possesso di una laurea magistrale (o la otterrà prima di settembre 2015), l'ESA offre un'eccellente opportunità di lavoro e crescita accademica, il programma 'Young Graduate Trainee'. I progetti sono proposti sul sito a partire da metà novembre e la possibilità di fare domanda è fino a metà dicembre. Lo stipendio è ottimo per un giovane laureato, circa €2200 al mese!</p>
-   </div>
-   <div class="card-action">
-     <table> <tbody>
-    <tr>
-      <td><a href="#">Link</a> </td>
-      <td>Space Science</td>
-      <td>Annuale</td>
-      <td>Retribuito</td>
-        <td>Post-Laurea</td>
-    </tr>
-   </tbody></table>
-
-   </div>
-   </div>
-   </div>
-   </div>
 </div>
 
 
