@@ -17,7 +17,6 @@ require 'filters.php';
 $res = $mysqli->query($query);
 $data = array();
 while($row = $res->fetch_array(MYSQL_ASSOC)) {
-        var_dump($row);
         $decode = array();
         $decode["id"] = $row["id"];
         $decode["name"] = $row["name"];
@@ -26,10 +25,10 @@ while($row = $res->fetch_array(MYSQL_ASSOC)) {
         $decode["region"] = $lang[array_search((int)$row["region"], $region)];
         $decode["studies"] = $lang[array_search((int)$row["studies"], $studies)];
         $decode["retribution"] = $lang[array_search((int)$row["retribution"], $retribution)];
-        $decode["quality"] = $lang[array_search((int)$row["quality"], $retribution)];
-        $decode["descriptio"] = $row["description_".$selectedlang];
+        $decode["quality"] = $lang[array_search((int)$row["quality"], $quality)];
+        $decode["description"] = $row["descr_".$selectedlang];
+        $decode["link"] = $row["link"];
         $data[] = $decode;
    }
- //echo json_encode($data,JSON_UNESCAPED_UNICODE);
- var_dump($data);
+ echo json_encode($data,JSON_UNESCAPED_UNICODE);
  ?>

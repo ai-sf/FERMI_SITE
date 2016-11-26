@@ -77,4 +77,3 @@ $quality["FILTER_QUALITY_HIGH"] = 3;
 $quality["FILTER_QUALITY_EXCELLENT"] = 4;
 
 ?>
-

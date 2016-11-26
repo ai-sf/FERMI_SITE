@@ -36,12 +36,13 @@
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
 </head>
 
-<body>
+<body onload="dbgetdata()">
   <?php require("menu.php");?>
          <div class="row">
 
         <div class="col s8 offset-s1">
          <h4> Risultati ricerca</h4>
+         <div id="results">
          <div class="row">
      <div class="col s10 offset-s1">
        <div class="card blue-grey darken-1">
@@ -87,7 +88,7 @@
    </div>
    </div>
    </div>
-
+</div>
 
 
         </div>

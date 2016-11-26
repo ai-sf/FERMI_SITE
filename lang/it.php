@@ -60,9 +60,9 @@ $lang["FILTER_RETRIBUTION_HIGH"] = "Alta";
 $lang["FILTER_UNDERGRADUATE"] = "Triennale";
 $lang["FILTER_MASTER"] = "Magistrale";
 $lang["FILTER_PHD"] = "Dottorato";
-$lang["FILTER_UNDERGRADMASTER"] = "Triennale/Magistrale";
-$lang["FILTER_MASTERPHD"] = "Magistrale/Dottorato";
-$lang["FILTER_ALL"] = "Triennale/Magistrale/Dottorato";
+$lang["FILTER_UNDERGRADMASTER"] = "Triennale,Magistrale";
+$lang["FILTER_MASTERPHD"] = "Magistrale,Dottorato";
+$lang["FILTER_ALL"] = "Triennale,Magistrale,Dottorato";
 
 $lang["FILTER_INTERNATIONAL"] = "Internazionale";
 $lang["FILTER_USA"] = "Stati Uniti d'America";
