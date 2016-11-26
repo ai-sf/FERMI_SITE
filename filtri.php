@@ -42,10 +42,10 @@ $period["FILTER_SPRING"] = 5;
 
 
 
-$retribution["FILTER_NONE"] = 1;
-$retribution["FILTER_LOW"] = 2;
-$retribution["FILTER_MEDIUM"] = 3;
-$retribution["FILTER_HIGH"] = 4;
+$retribution["FILTER_RETRIBUTION_NONE"] = 1;
+$retribution["FILTER_RETRIBUTION_LOW"] = 2;
+$retribution["FILTER_RETRIBUTION_MEDIUM"] = 3;
+$retribution["FILTER_RETRIBUTION_HIGH"] = 4;
 
 
 $studies["FILTER_UNDERGRADUATE"] = 1;
@@ -71,10 +71,10 @@ $region["FILTER_POLAND"] = 13;
 $region["FILTER_DENMARK"] = 14;
 
 
-$quality["FILTER_LOW"] = 1;
-$quality["FILTER_MEDIUM"] = 2;
-$quality["FILTER_HIGH"] = 3;
-$quality["FILTER_EXCELLENT"] = 4;
+$quality["FILTER_QUALITY_LOW"] = 1;
+$quality["FILTER_QUALITY_MEDIUM"] = 2;
+$quality["FILTER_QUALITY_HIGH"] = 3;
+$quality["FILTER_QUALITY_EXCELLENT"] = 4;
 
 ?>
 
