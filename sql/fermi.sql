@@ -28,7 +28,7 @@ CREATE TABLE `fermi` (
   `retribution` int(11) NOT NULL,
   `link` text NOT NULL,
   `coord` text NOT NULL,
-  `rating` int(11) NOT NULL,
+  `quality` int(11) NOT NULL,
   `description_it` text NOT NULL,
   `description_en` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
