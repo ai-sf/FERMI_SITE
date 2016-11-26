@@ -52,4 +52,39 @@ $lang["FILTER_AUTUMN"] = "Autunno";
 $lang["FILTER_WINTER"] = "Inverno";
 $lang["FILTER_SPRING"] = "Primavera";
 
+$lang["FILTER_RETRIBUTION_NONE"] = "Nessuna";
+$lang["FILTER_RETRIBUTION_LOW"] = "Bassa";
+$lang["FILTER_RETRIBUTION_MEDIUM"] = "Media";
+$lang["FILTER_RETRIBUTION_HIGH"] = "Alta";
+
+$lang["FILTER_UNDERGRADUATE"] = "Triennale";
+$lang["FILTER_MASTER"] = "Magistrale";
+$lang["FILTER_PHD"] = "Dottorato";
+$lang["FILTER_UNDERGRADMASTER"] = "Triennale/Magistrale";
+$lang["FILTER_MASTERPHD"] = "Magistrale/Dottorato";
+$lang["FILTER_ALL"] = "Triennale/Magistrale/Dottorato";
+
+$lang["FILTER_INTERNATIONAL"] = "Internazionale";
+$lang["FILTER_USA"] = "Stati Uniti d'America";
+$lang["FILTER_SWITZERLAND"] = "Svizzera";
+$lang["FILTER_GREAT BRITAIN"] = "Gran Bretagna";
+$lang["FILTER_ITALY"] = "Italia";
+$lang["FILTER_AUSTRALIA"] = "Australia";
+$lang["FILTER_NETHERLANDS"] = "Paesi Bassi";
+$lang["FILTER_FRANCE"] = "Francia";
+$lang["FILTER_IRELAND"] = "Irlanda";
+$lang["FILTER_GERMANY"] = "Germania";
+$lang["FILTER_SPAIN"] = "Spagna";
+$lang["FILTER_TAIWAN"] = "Taiwan";
+$lang["FILTER_POLAND"] = "Polonia";
+$lang["FILTER_DENMARK"] = "Danimarca";
+
+$lang["FILTER_QUALITY_LOW"] = "Bassa";
+$lang["FILTER_QUALITY_MEDIUM"] = "Media";
+$lang["FILTER_QUALITY_HIGH"] = "Alta";
+$lang["FILTER_QUALITY_EXCELLENT"] = "Eccellente";
+
+
+
+
 ?>
