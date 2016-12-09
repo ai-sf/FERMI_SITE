@@ -60,7 +60,7 @@
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
             <h2 class="center">Objective</h2>
-            <p class="light">Building a database of internships and opportunities for physics students and help them getting into contact with research institutes.</p>
+            <p align="center" class="light">Building a database of internships and opportunities for physics students and help them getting into contact with research institutes.</p>
           </div>
         </div>
 
@@ -68,7 +68,7 @@
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
             <h2 class="center">How</h2>
-            <p class="light">The database allows you to do tailor made searches by field of study, place, retribution and many more</p>
+            <p align="center" class="light">The database allows you to do tailor made searches by field of study, place, retribution and many more</p>
           </div>
         </div>
 
@@ -76,7 +76,7 @@
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
             <h2 class="center">Target</h2>
-            <p class="light">Young physics students, especially Italian but not restricted.</p>
+            <p align="center" class="light">Young physics students, especially Italian but not restricted.</p>
           </div>
         </div>
       </div>
