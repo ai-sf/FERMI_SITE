@@ -43,7 +43,7 @@
   <div class="row">
     <div class="col l4 offset-l4 s8 offset-s2">
       <h1>
-         <img id="index-top-logo" src="img/banner.png" alt="Event logo">
+         <img id="index-top-logo" src="img/banner.jpg" alt="Event logo">
       </h1>
     </div>
   </div>
