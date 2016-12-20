@@ -11,8 +11,7 @@ $lang['MENU_ABOUT'] = 'About';
 
 $lang['MORE'] = 'Approfondisci';
 
-$lang['WELCOME'] = 'The FERMI project of the Italian Association of Physics Students aims to build a database of internships and opportunities for physics students as these can make a difference in a world with such a high competition for jobs or research positions. We think that stages in research institutes and universities are excellent to define our academic interests and get to know diverse and stimulating realities.';
-
+$lang['WELCOME'] = 'Il progetto FERMI della Associazione Italiana Studenti di Fisica ha come obiettivo costruire un database di internship e opportunità per studenti di fisica poichè queste possono fare la differenza in un mondo con una così elevata competizione per posti di lavoro o ricerca. Crediamo che stage in istituti di ricerca e università siano eccellenti per definire i nostri interessi accademici e conoscere diverse e stimolanti realtà.'
 $lang['ALL'] = 'Tutti';
 
 $lang['FIELD'] = "Campo";
