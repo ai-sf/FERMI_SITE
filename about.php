@@ -52,7 +52,7 @@
 <article class="post-content">
   <div class="section">
 <p>
-The FERMI project was initiated by the Italian Association of Physics Students (AISF) in December 2014. It has the twofold goal of: <p> &bull; Collecting information on high-level internships for physics students available both in Italy and abroad.</p> <p> &bull; Promoting the creation of new internship opportunities in Italian universities, laboratories and research centers.</p> This webpage contains the FERMI Project database of internships and summer schools for physics students, collected over the last months. They are classified according to many parameters (field of research, country, region, paid/unpaid, period of the year, etc.) for your convenience.   <p> Research internships are incredible opportunities to work hands on alongside experts in your chosen field, putting in practice the theoretical knowledge one gathered during courses at universities to tackle challenging problems in a creative and original fashion. They can be great fun too! Some of the most well-established internship programs (for example, the CERN summer research internship or the SURF fellowship at Caltech) offer a very rich social program! You’ll be meeting dozens of other interesting and motivated students from around the world, creating strong bonds and having lots of fun! </p> Even in programs with a smaller number of participants, the atmosphere is usually stimulating and nurturing, and professors as well as PhD students are often very eager to involve the newcomers in the life of the research group! Have a look at the opportunities we collected here for you and in case you’d like to suggest an addition to the database, do not hesitate to contact Lucio Milanese, the FERMI Project Coordinator, at lucio.milanese@ai-sf.it
+<?php echo $lang['ABOUT_TEXT'];?>
 </p>
 </div>
 
@@ -75,7 +75,7 @@ FILTRI
    href="http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"
 
 class="collection-item black-text">
-Database offline: We thought an offline copy of the database would be useful so we compiled all the opportunities in a document you can download here
+<?php echo $lang['ABOUT_OFFLINE'];?>
 
   <span class="badge custom1 white-text">PDF</span>
 </a>
