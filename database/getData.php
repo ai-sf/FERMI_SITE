@@ -28,6 +28,7 @@ while($row = $res->fetch_array(MYSQL_ASSOC)) {
         $decode["quality"] = $lang[array_search((int)$row["quality"], $quality)];
         $decode["description"] = $row["descr_".$selectedlang];
         $decode["link"] = $row["link"];
+        $decode["lang"] = $selectedlang;
         $data[] = $decode;
    }
  echo json_encode($data,JSON_UNESCAPED_UNICODE);

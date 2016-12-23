@@ -19,7 +19,7 @@ $lang['HOME_TARGET'] ='Giovani studenti di fisica, italiani in particolare ma no
 
 $lang['MORE'] = 'Approfondisci';
 
-$lang['WELCOME'] = 'Il progetto FERMI della Associazione Italiana Studenti di Fisica ha come obiettivo costruire un database di internship e opportunità per studenti di fisica poichè queste possono fare la differenza in un mondo con una così elevata competizione per posti di lavoro o ricerca. Crediamo che stage in istituti di ricerca e università siano eccellenti per definire i nostri interessi accademici e conoscere diverse e stimolanti realtà.'
+$lang['WELCOME'] = 'Il progetto FERMI della Associazione Italiana Studenti di Fisica ha come obiettivo costruire un database di internship e opportunità per studenti di fisica poichè queste possono fare la differenza in un mondo con una così elevata competizione per posti di lavoro o ricerca. Crediamo che stage in istituti di ricerca e università siano eccellenti per definire i nostri interessi accademici e conoscere diverse e stimolanti realtà.';
 $lang['ALL'] = 'Tutti';
 
 $lang['FIELD'] = "Campo";
