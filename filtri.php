@@ -29,6 +29,8 @@ $field["FILTER_FLUID_DYNAMICS"] =19;
 $field["FILTER_GRAVITATIONAL"] =20;
 $field["FILTER_BEAMS"] =21;
 $field["FILTER_VARIE"] =22;
+$field["FILTER_QUANTUM_INFORMATION"] =23;
+
 
 
 
@@ -69,6 +71,13 @@ $region["FILTER_SPAIN"] = 11;
 $region["FILTER_TAIWAN"] = 12;
 $region["FILTER_POLAND"] = 13;
 $region["FILTER_DENMARK"] = 14;
+$region["FILTER_CANADA"] = 15;
+$region["FILTER_CINA"] = 16;
+$region["FILTER_GIAPPONE"] = 17;
+$region["FILTER_COREA_DEL_SUD"] = 18;
+$region["FILTER_RUSSIA"] = 19;
+$region["FILTER_NUOVA ZELANDA"] = 20;
+$region["FILTER_PORTOGALLO"] = 21;
 
 
 $quality["FILTER_QUALITY_LOW"] = 1;

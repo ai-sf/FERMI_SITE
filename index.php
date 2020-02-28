@@ -33,7 +33,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -41,10 +41,10 @@
 
   <div id="index-banner">
   <div class="row">
-    <div class="col l4 offset-l4 s8 offset-s2">
-      <h1>
-         <img id="index-top-logo" src="img/banner.jpg" alt="Event logo">
-      </h1>
+    <div class="col l4 offset-l4 s12">
+      
+         <img id="index-top-logo" src="img/banner.jpg" style='width:100%;' alt="Event logo">
+   
     </div>
   </div>
 </div>
@@ -58,56 +58,77 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
-            <h2 class="center">Objective</h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h4>
+            <h4 class="center"><?php echo $lang['OBJECTIVE_TITLE'];?></h4>
             <p align="center" class="light"><?php echo $lang['HOME_OBJECTIVE'];?></p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
-            <h2 class="center">How</h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">today</i></h4>
+            <h4 class="center"><?php echo $lang['HOW_TITLE'];?></h4>
             <p align="center" class="light"><?php echo $lang['HOME_HOW'];?></p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
-            <h2 class="center">Target</h2>
+            <h4 class="center"><i class="medium material-icons custom1-text">location_on</i></h4>
+            <h4 class="center">Target</h4>
             <p align="center" class="light"><?php echo $lang['HOME_TARGET'];?></p>
           </div>
         </div>
       </div>
-
-    <!-- slideshow -->
- <div class="section">
-      <div class="slider" id="foto-eventi">
-        <ul class="slides">
-          <li>
-              <img src="/img/cern.jpg" alt="CERN">
-              <div class="caption left-align">
-                <h4>LHC</h4>
-                <p class="light grey-text text-lighten-3">Large Hadron Collider</p>
-              </div>
-            </li>
-
-        </ul>
-      </div>
-</div>
 
     <!-- paragraph -->
     <div class="section">
       <div class="row">
         <div class="col s8 offset-s2">
           <div class="icon-block">
-            <h3 class="center"><i class="medium material-icons custom1-text">send</i></h2>
+            <h5 class="center"><i class="medium material-icons custom1-text">send</i></h5>
             <p class="center light"> <?php echo $lang['WELCOME'];?></p>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- slideshow -->
+ <div class="section">
+      <div class="slider" id="foto-eventi">
+        <ul class="slides">
+          <li>
+              <img src="http://www.ai-sf.it/fermi/img/cern.jpg" alt="CERN">
+              <div class="caption left-align">
+                <h4>LHC</h4>
+                <p class="light grey-text text-lighten-3">Large Hadron Collider</p>
+              </div>
+            </li>
+<li>
+              <img src="http://www.ai-sf.it/fermi/img/AustralianAstronomicalObservatory.jpg" alt="CERN">
+              <div class="caption left-align">
+                <h4>Australian Astronomical Observatory</h4>
+                <p class="light grey-text text-lighten-3">Coonabarabran</p>
+              </div>
+            </li>
+<li>
+              <img src="http://www.ai-sf.it/fermi/img/fermilab.jpg" alt="CERN">
+              <div class="caption left-align">
+                <h4>Fermilab</h4>
+                <p class="light grey-text text-lighten-3">Chicago</p>
+              </div>
+            </li>
+<li>
+              <img src="http://www.ai-sf.it/fermi/img/CulhamCentreforFusionEnergy.jpg" alt="CERN">
+              <div class="caption left-align">
+                <h4>Culham Centre for Fusion Energy</h4>
+                <p class="light grey-text text-lighten-3">Oxford</p>
+              </div>
+            </li>
+
+        </ul>
+      </div>
+</div>
 
   </div>
 </div>

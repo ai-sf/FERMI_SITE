@@ -1,4 +1,4 @@
-<?php require_once("lang.php");?>
+﻿<?php require_once("lang.php");?>
 <!DOCTYPE html>
 <html lang="it">
   <head>
@@ -33,7 +33,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -42,23 +42,20 @@
 <div class="post">
 
 <header class="post-header">
-  <h1 class="post-title">Promotion</h1>
+  <h4 class="post-title">Promotion</h4>
 </header>
 
 <article class="post-content">
-  <div class="valign-wrapper">
-<img id="promotion-logo" class="valign materialboxed" alt="Promotion logos" src="img">
-</div>
-<br>
+ <!--<div class="valign-wrapper">
+<img id="promotion-logo" class="valign materialboxed" alt="" src="img">
+</div>-->
 <div class="section">
 <div class="row">
 <div class="col s12">
-<h4>Support us</h4>
-<p>If you are interested in promoting our project please write an email to <a class="custom1-text" href="mailto:">this</a> email address.</p>
+<p><?php echo $lang['PROMOTION'];?></p>
 </div><br>
 </div>
 </div>
-
 </article>
 
 </div>
@@ -71,5 +68,26 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="/js/bin/materialize.min.js"></script>
 
+<script> // Slider
+  $(document).ready(function(){
+  $('.slider').slider({full_width: false});
+  });
+</script>
+<script> // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+</script>
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $('.carousel').carousel();
+  });
+</script>
 
 </html>

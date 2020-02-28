@@ -37,7 +37,7 @@
 <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet prefetch" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link href="css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+     <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 
 <body>
@@ -46,42 +46,29 @@
 <div class="post">
 
 <header class="post-header">
-  <h1 class="post-title">About FERMI</h1>
+  <h4 class="post-title">About FERMI</h4>
 </header>
 
 <article class="post-content">
   <div class="section">
-<p>
-<?php echo $lang['ABOUT_TEXT'];?>
+<p><?php echo $lang['ABOUT_TEXT'];?>
 </p>
 </div>
 
 <div class="section">
-<h2>Characteristics</h2>
+<h4>Characteristics</h4>
 <div class="collection">
 
-<a
+<div class="collection-item black-text">
+<?php echo $lang['ABOUT_FILTER'];?>
+</div>
 
-   href="https://philosophysics.github.io/fermivisual/#!"
-
-class="collection-item black-text">
-FILTRI
-
-</a>
-
-
-<a
-
-   href="http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"
-
-class="collection-item black-text">
+<div class="collection-item black-text">
 <?php echo $lang['ABOUT_OFFLINE'];?>
-
-  <span class="badge custom1 white-text">PDF</span>
+<a href="http://www.ai-sf.it/owncloud/index.php/s/i1BwR0nMXbbom2g"">
+  <span class="badge custom1 white-text teal lighten-2">PDF</span>
 </a>
-<a href="https://philosophysics.github.io/fermivisual/" class="collection-item black-text"> User guide
-<span class="badge custom1 white-text">User Guide</span>
-</a>
+</div>
 </div>
 </div>
 
@@ -97,5 +84,25 @@ class="collection-item black-text">
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="/js/bin/materialize.min.js"></script>
 
-
+<script> // Slider
+  $(document).ready(function(){
+  $('.slider').slider({full_width: false});
+  });
+</script>
+<script> // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+</script>
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal();
+  });
+</script>
+<script>
+  $(document).ready(function(){
+      $('.carousel').carousel();
+  });
+</script>
 </html>
